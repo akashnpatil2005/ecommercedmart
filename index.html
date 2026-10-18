@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-mart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <section>
+            <div><img src="image/d-mart ready logo.svg" alt=""></div>
+            <div class="location" id="location">
+                <div>
+                    <div class="location-in">
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    <h4>Hinjewa...</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <marquee behavior="scroll" direction="left" style="color: grey; font-size: 14px;"><p>Pune City, Maharashtra, India</p></marquee>
+                </div>
+            </div>
+            <div class="tomarrow">
+                <p style="font-size: 13px; padding-bottom: 10px;">Earliest <span>Home Delivery</span> available</p>
+                <div>
+                    <p style="font-size: 13px; font-weight: 550;"><i class="fa-regular fa-clock" style="color: orange;"></i>Today 07:00 AM - 10:00 AM</p>
+                </div>
+            </div>
+            <div class="search-area">
+                <input id="search-1" type="text" placeholder="Search for Agarbatti">
+                <button>SEARCH</button>
+            </div>
+            <div class="sign-in" id="sign-in">
+                <img src="image/user logo.svg" alt="">
+                <div><h4>Sign In / Register</h4></div>
+            </div>
+            <div class="notification" id="notification">
+                <img src="image/notification.svg" alt="">
+            </div>
+            <div class="shopping-basket">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="count" id="count">0</span>
+            </div>
+            <div class="rupee" id="rupee">&#8377; 0</div>
+        </section>
+        <!-- second line -->
+        <div class="link" class="filters" id="filters"></div>
+         
+    </header>
+    <!-- location page -->
+     <div class="map" id="map">
+        <div class="map-in">
+            <div class="map-in-g">
+                <h3>Choose delievery location</h3>
+                <div class="map-in-s">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="" id="" placeholder="Search for area, street name or pincode">
+                </div>
+            </div>
+            <!--  -->
+            <div class="map-recent">
+                <h6>RECENT SEARCH</h6>
+                <div class="map-recent-in">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                    <h5>Pune International Airport (PnQ)</h5>
+                    <p>Pune International Airport Area, Lohegaon, Pune, Maharashtra, India</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="map-close" id="map-close">&times;</div>
+     </div>
+     <!-- end -->
+
+    <!-- login=page -->
+     <!-- end login page here -->
+       <section class="login" id="login">
+        <div class="login-in">
+            <div class="img-girl">
+            <img src="image/register.png" alt="">
+        </div>
+        <div class="logform">
+            <h4>Let's Get You Logged In</h4>
+            <div class="logform-in">
+                <h5>Enter your 10 digit mobile number</h5>
+                <input type="tel" name="" id="" placeholder="+91">
+                <h4>By continuing you agree to our <span>Term, Refunds</span> <br>and <span>Privacy Policy</span></h4>
+                <button>CONTINUE</button>
+            </div>
+            <div class="close" id="close">&times;</div>
+        </div>
+        </div>
+     </section>
+
+     <!-- notification -->
+      <!-- Notification Sidebar -->
+<div class="noti-box" id="noti-box">
+    <div class="noti-1" id="noti-1">
+  <div class="noti-main">
+    <h2>Notification</h2>
+    <div class="noti-close" id="noti-close">&times;</div>
+  </div> 
+  <div class="noti-info">
+      <img src="image/notification-img.png" alt="No notifications">
+      <h3>No Notifications Right Now</h3>
+      <h5 style="color: lightgrey;">You are up to date</h5>
+      <button class="explore-btn">EXplore More</button>  
+  </div>
+</div>
+</div>
+     <!-- Auto-slider -->
+      <div class="auto">
+        <img id="auto" src="image/autoslider-3.jpeg" alt="">
+      </div>
+    <!-- end here -->
+
+     <!-- category slider -->
+      <section class="cat">
+        <h2>Popular Category</h2>
+        <div class="cat-in">
+            <button class="left-button button" id="left-button">&#10094</button>
+            <div class="special-cat" id="special-cat">
+                <div class="product-cat" id="product-cat">
+                    <img src="image/popular-dairy.png" alt="">
+                    <p>Dairy</p>
+                </div>
+                <div class="product-cat">
+                    <img src="image/popularcat-tea1.png" alt="">
+                    <p>Tea</p>
+                </div>
+                <div class="product-cat">
+                    <img src="image/popular-softdrinks.png" alt="">
+                    <p>Soft Drinks</p>
+                </div>
+                <div class="product-cat">
+                    <img src="image/popular-cleaners.png" alt="">
+                    <p>Cleaners</p>
+                </div>
+                <div class="product-cat">
+                    <img src="image/popular-soaps.png" alt="">
+                    <p>Bath Soaps</p>
+                </div>
+                <div class="product-cat" >
+                    <img src="image/popular-toothpaste.png" alt="">
+                    <p>Toothpaste</p>
+                </div>
+                <div class="product-cat">
+                    <img src="image/popular-shampoos.png" alt="">
+                    <p>Shampoo</p>
+                </div>
+                <div class="product-cat" >
+                    <img src="image/popular-poojaneeds.png" alt="">
+                    <p>Pooja Needs</p>
+                </div>
+                <div class="product-cat">
+                    <img src="image/popular-towels.png" alt="">
+                    <p>Towels</p>
+                </div>
+                <div class="product-cat">
+                    <img src="image/popular-bathroom.png" alt="">
+                    <p>Bathroom Utility</p>
+                </div>
+                <div class="product-cat">
+                    <img src="image/popular-coffee.png" alt="">
+                    <p>Coffee</p>
+                </div>
+
+            </div>
+            <button class="right-button button" id="right-button">&#10095</button>
+        </div>
+      </section>
+    <!-- Category end here -->
+
+
+    <!-- Products -->
+
+<div id="filters"></div>
+
+
+    <!-- Products -->
+
+    <div class="products" id="products"></div>
+
+
+    <!-- popular footer -->
+ 
+<div class="popular-searches">
+    <h2>Popular Searches</h2>
+    
+    <div class="search-row">
+        <span class="category-title">Products</span>
+        <span class="colon">:</span>
+        <p class="category-list">Milk | Cheese | Ketchup & Sauce | Pickles | Atta | Ready To Cook | Chips & Wafers | Oats | Green Tea | Cold Drinks | Skin Care | Body Lotions | Baby Powder | Bath Soaps | Hair Shampoos | Toothpaste | Diapers | Crockery Set | Tawas & Sauce Pans | Jar Container | Trolley bags | Bathroom Cleaners | Detergent Powder | Dishwash Liquids | Stationery Kits</p>
+    </div>
+
+    <div class="search-row">
+        <span class="category-title">Brands</span>
+        <span class="colon">:</span>
+        <p class="category-list">Amul | Pampers | Tata | Cadbury Dairy Milk | Fortune | Gemini | MTR | Harpic | Vim | Haldiram | Patanjali | Borosil | Bata | D Homes | Britannia | Parle | Everest | DMart Premia | Maggi | Ching's | Society | Gowardhan | Saffola | Nescafe | Horlicks | Tide | Lizol | Kinder Joy | Ferrero Rocher | McCain | Johnson's | Himalaya | Mamy Poko | Nivea | Vaseline | Philips | Kellogg's | Wonderchef | Joyo</p>
+    </div>
+
+    <div class="search-row">
+        <span class="category-title">Categories</span>
+        <span class="colon">:</span>
+        <p class="category-list">Grocery | Dairy & Beverages | Packaged Food | Fruits & Vegetables | Home & Kitchen | Kitchen & Dining | Personal Care & Beauty | Sports & Fitness | Baby Care | Books | Stationery | Home Utility & Organisers | Electronics & Appliances | Footwear | Clothing & Accessories | Bags & More | Gifting | Seasonal & More</p>
+    </div>
+</div>
+
+
+<div class="all-categories">
+    <h2>All Categories</h2>
+    
+    <div class="categories-columns">
+       
+        <div class="cat-col">
+            <a href="#">Grocery</a>
+            <a href="#">Ghee & Vanaspati</a>
+            <a href="#">Beverages</a>
+            <a href="#">Detergent & Fabric Care</a>
+            <a href="#">Kitchen & Dining</a>
+            <a href="#">Snacks & Farsans</a>
+            <a href="#">Bakery</a>
+            <a href="#">Bed & Bath</a>
+            <a href="#">Electronics & Appliances</a>
+            <a href="#">Women Clothing</a>
+            <a href="#">Bags & More</a>
+            <a href="#">Diapering</a>
+        </div>
+
+        
+        <div class="cat-col">
+            <a href="#">Dals</a>
+            <a href="#">Flours & Grains</a>
+            <a href="#">Dairy</a>
+            <a href="#">Cleaners</a>
+            <a href="#">Cookware Set</a>
+            <a href="#">Breakfast Cereals</a>
+            <a href="#">Frozen Food</a>
+            <a href="#">Bedding</a>
+            <a href="#">Home Appliances</a>
+            <a href="#">Accessories</a>
+            <a href="#">School Supplies</a>
+            <a href="#">Baby Care</a>
+        </div>
+
+        
+        <div class="cat-col">
+            <a href="#">Pulses</a>
+            <a href="#">Rice & Rice Products</a>
+            <a href="#">Fruits & Vegetables</a>
+            <a href="#">Utensil Cleaners</a>
+            <a href="#">Drinkware</a>
+            <a href="#">Chocolates & Candies</a>
+            <a href="#">Sweets</a>
+            <a href="#">Curtains</a>
+            <a href="#">Kitchen Appliances</a>
+            <a href="#">Personal Care</a>
+            <a href="#">Footwear</a>
+            <a href="#">Baby Food</a>
+        </div>
+
+        
+        <div class="cat-col">
+            <a href="#">Dry Fruits</a>
+            <a href="#">Masala & Spices</a>
+            <a href="#">Fresh Fruits</a>
+            <a href="#">Furniture & Decor</a>
+            <a href="#">Shop By Room</a>
+            <a href="#">Pasta & Noodles</a>
+            <a href="#">Seasonal & More</a>
+            <a href="#">Bedroom Storage</a>
+            <a href="#">Personal Care Appliances</a>
+            <a href="#">Sports & Fitness</a>
+            <a href="#">Men's Footwear</a>
+            <a href="#">Baby Gear & Furniture</a>
+        </div>
+
+        
+        <div class="cat-col">
+            <a href="#">DMart Grocery</a>
+            <a href="#">Salt / Sugar / Jaggery</a>
+            <a href="#">Vegetables</a>
+            <a href="#">Cookware</a>
+            <a href="#">Packaged Food</a>
+            <a href="#">Ready to Cook</a>
+            <a href="#">Gifting</a>
+            <a href="#">Bath Accessories</a>
+            <a href="#">Clothing & Accessories</a>
+            <a href="#">Books & Stationery</a>
+            <a href="#">Women's Footwear</a>
+        </div>
+
+       
+        <div class="cat-col">
+            <a href="#">Cooking Oil</a>
+            <a href="#">Dairy & Beverages</a>
+            <a href="#">Home & Kitchen</a>
+            <a href="#">Pooja Needs</a>
+            <a href="#">Biscuits & Cookies</a>
+            <a href="#">Healthy Food</a>
+            <a href="#">Festive Specials</a>
+            <a href="#">Electronics & Appliances</a>
+            <a href="#">Men Clothing</a>
+            <a href="#">Home Utility & Organisers</a>
+            <a href="#">Baby & Kids</a>
+        </div>
+    </div>
+</div>
+   
+<!-- footer -->
+<footer>
+    <div class="footer-container">
+        
+        <div class="footer-left">
+            <p class="app-title">Download DMart Ready Mobile App Now!!</p>
+            
+            <div class="app-buttons">
+                <img src="image/google-play (1).svg" alt="Google Play">
+                <img src="image/apple-store.webp" alt="App Store">   
+            </div>
+
+            <div class="payment-icons">
+                <img src="image/visa (1).svg" alt="Visa">
+                <img src="image/mastercard (1).svg" alt="Mastercard">
+                <img src="image/american (1).svg" alt="Amex">
+                <img src="image/rupay (1).svg" alt="RuPay">
+                <img src="image/cash_outlined (1).svg" alt="Cash">
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <a href="#">FAQs</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Pricing, Delivery, Return and Refund Policy</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Disclaimer</a>
+        </div>
+
+        <div class="footer-links">
+            <a href="#">Contact Us</a>
+            <a href="#">About Us</a>
+            <a href="#">Join Us</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>Copyright &copy; 2026 Avenue E-Commerce Limited (AEL). All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
